@@ -1,0 +1,291 @@
+{
+  "pageName": "entry_form_structure",
+  "url": "https://arafahafiz.com/entry-form/",
+  "extractedAt": "2026-09-30T18:04:45.729Z",
+  "tables": [],
+  "formFields": [
+    {
+      "label": "Entry Date",
+      "type": "date"
+    },
+    {
+      "label": "G-code:",
+      "type": "text"
+    },
+    {
+      "label": "UMRAH VISA",
+      "type": "radio",
+      "choices": [
+        "UMRAH VISA",
+        "BRN CHARGE",
+        "TRANSPORT",
+        "NAQABA-FINE",
+        "ESCAPED FINE TO",
+        "HOTEL",
+        "PAYMENT TO ARAFA (A/R)",
+        "PAYMENT FROM ARAFA (A/P)",
+        "MULTIPLE VISA",
+        "PREVIOUS DUES",
+        "CRN"
+      ]
+    },
+    {
+      "label": "BD Agency Name:",
+      "type": "select",
+      "choices": [
+        "---",
+        "ABBAS",
+        "ABDULLAH MIYAJI",
+        "ADRIB HOLYDAYS",
+        "AHSANULLAH",
+        "AIMAN",
+        "AKBER BHAI",
+        "AL AHSAN",
+        "AL MADINAH",
+        "AL MAHMUD",
+        "AL MANAR INTERNATIONAL",
+        "ALAUDDIN",
+        "AMAN",
+        "AMANULLAH",
+        "AMAR TRAVELS",
+        "AMINUL",
+        "ANIK",
+        "AR RAHIM",
+        "ARIF",
+        "ARIZONA TRAVELS",
+        "AYMAN",
+        "BAITUSSALAM",
+        "BAIYENAH",
+        "BORSHA OVERSES",
+        "BOSS PERSONAL",
+        "DHAKA HAJJ KAFELA",
+        "EMAAR HOLIDAYS",
+        "EVEREST",
+        "EVEREST INT",
+        "FAHAD",
+        "FAHAD SIFAT",
+        "FARISHTA",
+        "FIRST ONE",
+        "FLIGHT 24 BD",
+        "Fly Burak",
+        "FLY HAJJ",
+        "FLY JOBALE NOOR",
+        "HABIB",
+        "HABIBA",
+        "HABIBULLAH",
+        "HADI",
+        "HANJALA",
+        "HARUN",
+        "HOLY",
+        "KAFLAN",
+        "KHALES AVIATION",
+        "LABBAIK HORIZON",
+        "MADANI",
+        "MINHAJ",
+        "MISFALA",
+        "MOHAJIR",
+        "MOHAMMAD ALI",
+        "MUZAHID TRAVELS",
+        "NASRIN SULTANA",
+        "NAZIR",
+        "NAZMUL",
+        "NAZRUL",
+        "NEAMUL HOK",
+        "NUR E HARAMINE",
+        "RAKIB",
+        "RAYHAN",
+        "REDWAN VAI RB",
+        "RIZKHAN",
+        "SA FLY (SAYED)",
+        "SAAD GROUP",
+        "SADDAM",
+        "SALMAN FARCY",
+        "SARWAR",
+        "SAYED KHAJA",
+        "SELIM KHAJA",
+        "SHAMIM",
+        "SHAMS DUHA",
+        "SHAMSSUDDOHA",
+        "SUMAIYA",
+        "TAHMID",
+        "TALBIA",
+        "TALHA",
+        "ULAMA",
+        "UNION",
+        "UTTARA HAJJ GROUP",
+        "ZAMZAM"
+      ]
+    },
+    {
+      "label": "Saudi Agency Name:",
+      "type": "select",
+      "choices": [
+        "---",
+        "AL NASER RH",
+        "AL SHOWAIGH",
+        "BENAA FOR UMRAH",
+        "BENAA SAUDI OFFICE",
+        "DHANSHIRI BENAA",
+        "ELHAM",
+        "EXPERT BENAA",
+        "EXPERT MIZAN",
+        "MODERN GUEST",
+        "REHLAT",
+        "RIYAD AL HARAMAIN",
+        "SOCIETY HEZAJJ MIAM",
+        "SPECIAL BENAA ARAFA",
+        "TARVEL GATE"
+      ]
+    },
+    {
+      "label": "Name",
+      "type": "text"
+    },
+    {
+      "label": "Passport Number",
+      "type": "text"
+    },
+    {
+      "label": "Fine Amount",
+      "type": "number"
+    },
+    {
+      "label": "AMOUNT OF DUES",
+      "type": "number"
+    },
+    {
+      "label": "ESCAPED FINE NOTE",
+      "type": "textarea"
+    },
+    {
+      "label": "PAX",
+      "type": "number"
+    },
+    {
+      "label": "PAX Others",
+      "type": "number"
+    },
+    {
+      "label": "Visa Sale Amount",
+      "type": "number"
+    },
+    {
+      "label": "Visa Purchase Amount",
+      "type": "number"
+    },
+    {
+      "label": "Transport Sale Amount",
+      "type": "number"
+    },
+    {
+      "label": "CRN PAX",
+      "type": "number"
+    },
+    {
+      "label": "CRN Nights",
+      "type": "number"
+    },
+    {
+      "label": "CRN SALE RATE",
+      "type": "number"
+    },
+    {
+      "label": "CRN PURCHASE RATE",
+      "type": "number"
+    },
+    {
+      "label": "CRN Sales Amount",
+      "type": "number"
+    },
+    {
+      "label": "CRN Purchase Amount",
+      "type": "number"
+    },
+    {
+      "label": "Nights",
+      "type": "number"
+    },
+    {
+      "label": "Room",
+      "type": "number"
+    },
+    {
+      "label": "Rate",
+      "type": "number"
+    },
+    {
+      "label": "Hotel Sales Amount",
+      "type": "number"
+    },
+    {
+      "label": "BD Amount",
+      "type": "number"
+    },
+    {
+      "label": "Saudi Rate",
+      "type": "number"
+    },
+    {
+      "label": "BD Agency Payment Amount",
+      "type": "number"
+    },
+    {
+      "label": "BD Agency Mode of Payment",
+      "type": "select",
+      "choices": [
+        "Select Payment Method",
+        "Recv IN HAND (BDT)",
+        "Recv IN HAND (SAR)",
+        "RECIVE IN BANK (BDT)",
+        "RECIVE IN BANK (SAR)",
+        "Others"
+      ]
+    },
+    {
+      "label": "Saudi Agency Payment Amount",
+      "type": "number"
+    },
+    {
+      "label": "Paid by Cash (IN HAND)",
+      "type": "radio",
+      "choices": [
+        "Paid by Cash (IN HAND)",
+        "Paid by ATM",
+        "Paid by Bank",
+        "Other"
+      ]
+    },
+    {
+      "label": "Total Sales",
+      "type": "number"
+    },
+    {
+      "label": "Grand Total Sales",
+      "type": "number"
+    },
+    {
+      "label": "Total Visa Purchase - For Saudi Agency",
+      "type": "number"
+    },
+    {
+      "label": "BD Agency Total Payment",
+      "type": "number"
+    },
+    {
+      "label": "Saudi Agency Total Payment",
+      "type": "number"
+    },
+    {
+      "label": "BD Agent Balance Dr/Cr",
+      "type": "number"
+    },
+    {
+      "label": "Saudi Agent Balance Dr/Cr",
+      "type": "number"
+    },
+    {
+      "label": "Note",
+      "type": "textarea"
+    }
+  ]
+}

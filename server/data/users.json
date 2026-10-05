@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "USER-1",
+    "id": "USER-1",
+    "username": "admin",
+    "password": "admin",
+    "role": "Super Admin",
+    "name": "Super Admin",
+    "createdAt": "2026-10-01T23:40:04.428Z",
+    "updatedAt": "2026-10-01T23:40:04.428Z"
+  }
+]

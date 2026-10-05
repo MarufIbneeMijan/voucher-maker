@@ -1,0 +1,114 @@
+{
+  "agencyType": "BD_AGENT",
+  "records": [
+    {
+      "agencyName": "AMAR TRAVELS",
+      "agencyCode": "BD-101",
+      "phone": "+8801711122334",
+      "whatsapp": "+8801711122334",
+      "address": "Motijheel C/A, Dhaka, Bangladesh",
+      "creditLimit": 500000,
+      "currentBalance": 1150,
+      "entries": [
+        {
+          "entryId": "ENT-1001",
+          "date": "2026-09-01T10:00:00.000Z",
+          "transactionType": "UMRAH_PACKAGE",
+          "reference": "G-8812",
+          "passengerName": "Abdul Karim & Group",
+          "description": "Umrah Visa for 5 Pilgrims (Group Dhaka Hajj)",
+          "currency": "BDT",
+          "debit": 4150,
+          "credit": 0,
+          "runningBalance": 4150,
+          "notes": "Umrah Visa 5 PAX @ 520 SAR equivalent"
+        },
+        {
+          "entryId": "ENT-1002",
+          "date": "2026-09-03T14:30:00.000Z",
+          "transactionType": "PAYMENT_RECEIVED",
+          "reference": "TRX-BK-99410",
+          "passengerName": "-",
+          "description": "Advance Payment Received via Bank",
+          "currency": "BDT",
+          "debit": 0,
+          "credit": 3000,
+          "runningBalance": 1150,
+          "notes": "Islami Bank Deposit Trx#99410"
+        }
+      ]
+    },
+    {
+      "agencyName": "DHAKA HAJJ KAFELA",
+      "agencyCode": "BD-102",
+      "phone": "+8801812345678",
+      "whatsapp": "+8801812345678",
+      "address": "Naya Paltan, Dhaka",
+      "creditLimit": 1000000,
+      "currentBalance": 5600,
+      "entries": [
+        {
+          "entryId": "ENT-1003",
+          "date": "2026-09-05T11:00:00.000Z",
+          "transactionType": "VISA_SERVICE",
+          "reference": "G-8901",
+          "passengerName": "Mohammad Rafiq & 9 Pax",
+          "description": "BRN Charge & Transport Package",
+          "currency": "BDT",
+          "debit": 7600,
+          "credit": 2000,
+          "runningBalance": 5600,
+          "notes": "10 Pax BRN + Transport"
+        }
+      ]
+    },
+    {
+      "agencyName": "AL MANAR INTERNATIONAL",
+      "agencyCode": "BD-103",
+      "phone": "+8801911887766",
+      "whatsapp": "+8801911887766",
+      "address": "Banani, Dhaka",
+      "creditLimit": 750000,
+      "currentBalance": 90000,
+      "entries": [
+        {
+          "entryId": "ENT-1004",
+          "date": "2026-09-10T16:20:00.000Z",
+          "transactionType": "TICKET_ISSUE",
+          "reference": "PNR-ABC123",
+          "passengerName": "Selim Ahmed / MST Jahanara",
+          "description": "Air Ticket Issue - Biman Bangladesh DAC-JED-DAC",
+          "currency": "BDT",
+          "debit": 190000,
+          "credit": 100000,
+          "runningBalance": 90000,
+          "notes": "2 Tickets DAC-JED RT"
+        }
+      ]
+    },
+    {
+      "agencyName": "EVEREST INT",
+      "agencyCode": "BD-104",
+      "phone": "+8801733445566",
+      "whatsapp": "+8801733445566",
+      "address": "Uttara, Dhaka",
+      "creditLimit": 300000,
+      "currentBalance": 0,
+      "entries": [
+        {
+          "entryId": "ENT-1005",
+          "date": "2026-09-15T09:15:00.000Z",
+          "transactionType": "VISA_SERVICE",
+          "reference": "G-9105",
+          "passengerName": "Hasanuzzaman",
+          "description": "Naqaba Fine & Hotel Reservation Makkah",
+          "currency": "BDT",
+          "debit": 4400,
+          "credit": 4400,
+          "runningBalance": 0,
+          "notes": "Paid full in cash"
+        }
+      ]
+    }
+  ]
+}

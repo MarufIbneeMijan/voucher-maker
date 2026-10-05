@@ -1,0 +1,66 @@
+{
+  "pageName": "saudi_agency_statement",
+  "url": "https://arafahafiz.com/date-wise-saudi-ledger-report/",
+  "headers": [
+    "SL. No.",
+    "Entry ID",
+    "Entry Date",
+    "Saudi Company",
+    "G-code",
+    "BD Agency Name",
+    "Description",
+    "PAX",
+    "Purchase Rate",
+    "Total Bill",
+    "Payment",
+    "Balance Dr/Cr",
+    "Payment Method"
+  ],
+  "sampleRows": [
+    {
+      "slNo": 1,
+      "entryId": "ENT-2001",
+      "date": "2026-09-02",
+      "saudiCompany": "BENAA FOR UMRAH",
+      "gCode": "G-8812",
+      "bdAgencyName": "AMAR TRAVELS",
+      "description": "5 Umrah Visas Purchase (SAR 450/PAX)",
+      "pax": 5,
+      "purchaseRate": 450,
+      "totalBill": 2250,
+      "payment": 1000,
+      "balance": 1250,
+      "paymentMethod": "Paid by Bank"
+    },
+    {
+      "slNo": 2,
+      "entryId": "ENT-2002",
+      "date": "2026-09-04",
+      "saudiCompany": "AL NASER RH",
+      "gCode": "G-8901",
+      "bdAgencyName": "DHAKA HAJJ KAFELA",
+      "description": "10 Transport & Visa Vouchers",
+      "pax": 10,
+      "purchaseRate": 430,
+      "totalBill": 4300,
+      "payment": 4300,
+      "balance": 0,
+      "paymentMethod": "Paid by Cash (IN HAND)"
+    },
+    {
+      "slNo": 3,
+      "entryId": "ENT-2003",
+      "date": "2026-09-12",
+      "saudiCompany": "REHLAT",
+      "gCode": "G-9105",
+      "bdAgencyName": "EVEREST INT",
+      "description": "Hotel Allocation Makkah Clock Tower",
+      "pax": 4,
+      "purchaseRate": 500,
+      "totalBill": 2000,
+      "payment": 500,
+      "balance": 1500,
+      "paymentMethod": "Paid by ATM"
+    }
+  ]
+}

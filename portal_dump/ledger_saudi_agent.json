@@ -1,0 +1,80 @@
+{
+  "agencyType": "SAUDI_AGENT",
+  "records": [
+    {
+      "agencyName": "BENAA FOR UMRAH",
+      "agencyCode": "KSA-201",
+      "phone": "+966501234567",
+      "whatsapp": "+966501234567",
+      "address": "Ibrahim Al Khalil Road, Makkah, KSA",
+      "creditLimit": 100000,
+      "currentBalance": 1250,
+      "entries": [
+        {
+          "entryId": "ENT-2001",
+          "date": "2026-09-02T12:00:00.000Z",
+          "transactionType": "UMRAH_PACKAGE",
+          "reference": "G-8812",
+          "passengerName": "5 Umrah Visas",
+          "description": "5 Umrah Visas Purchase (SAR 450/PAX)",
+          "currency": "SAR",
+          "exchangeRate": 32.5,
+          "debit": 2250,
+          "credit": 1000,
+          "runningBalance": 1250,
+          "notes": "SAR Purchase balance"
+        }
+      ]
+    },
+    {
+      "agencyName": "AL NASER RH",
+      "agencyCode": "KSA-202",
+      "phone": "+966509876543",
+      "whatsapp": "+966509876543",
+      "address": "Kudai, Makkah, KSA",
+      "creditLimit": 50000,
+      "currentBalance": 0,
+      "entries": [
+        {
+          "entryId": "ENT-2002",
+          "date": "2026-09-04T15:00:00.000Z",
+          "transactionType": "VISA_SERVICE",
+          "reference": "G-8901",
+          "passengerName": "10 Transport Vouchers",
+          "description": "10 Transport & Visa Vouchers",
+          "currency": "SAR",
+          "exchangeRate": 32.5,
+          "debit": 4300,
+          "credit": 4300,
+          "runningBalance": 0,
+          "notes": "Cleared"
+        }
+      ]
+    },
+    {
+      "agencyName": "REHLAT",
+      "agencyCode": "KSA-203",
+      "phone": "+966505554433",
+      "whatsapp": "+966505554433",
+      "address": "Madinah Munawwarah, KSA",
+      "creditLimit": 80000,
+      "currentBalance": 1500,
+      "entries": [
+        {
+          "entryId": "ENT-2003",
+          "date": "2026-09-12T17:00:00.000Z",
+          "transactionType": "UMRAH_PACKAGE",
+          "reference": "G-9105",
+          "passengerName": "Hotel Booking 4 Pax",
+          "description": "Hotel Allocation Makkah Clock Tower",
+          "currency": "SAR",
+          "exchangeRate": 32.5,
+          "debit": 2000,
+          "credit": 500,
+          "runningBalance": 1500,
+          "notes": "SAR 1500 unpaid balance"
+        }
+      ]
+    }
+  ]
+}

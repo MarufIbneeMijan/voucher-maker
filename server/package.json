@@ -1,0 +1,20 @@
+{
+  "name": "traveledger-backend",
+  "version": "1.0.0",
+  "description": "TravelLedger B2B Backend API for Travel & Umrah Agencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "build:client": "npm --prefix ../client run build",
+    "seed": "node scripts/seedFromDump.js",
+    "sync-balances": "node scripts/recalculateBalances.js",
+    "test": "node --test scripts/test-auth.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}

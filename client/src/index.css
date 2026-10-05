@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    min-height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: static !important;
+    font-family: 'Plus Jakarta Sans', 'Hind Siliguri', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  #root {
+    min-height: 100vh;
+    width: 100%;
+    position: static !important;
+  }
+}
+
+/* Theme 1: Arafa Teal (Default Light) */
+[data-theme="arafa-teal"] body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Theme 2: Midnight / Onyx Dark */
+[data-theme="midnight-onyx"] body {
+  background-color: #09090b;
+  color: #f4f4f5;
+}
+
+[data-theme="midnight-onyx"] .bg-white {
+  background-color: #18181b !important;
+  color: #f4f4f5 !important;
+  border-color: #27272a !important;
+}
+
+[data-theme="midnight-onyx"] .bg-slate-50 {
+  background-color: #27272a !important;
+  color: #f4f4f5 !important;
+  border-color: #3f3f46 !important;
+}
+
+[data-theme="midnight-onyx"] .bg-slate-100 {
+  background-color: #27272a !important;
+  color: #f4f4f5 !important;
+}
+
+[data-theme="midnight-onyx"] .text-slate-900,
+[data-theme="midnight-onyx"] .text-slate-800,
+[data-theme="midnight-onyx"] .text-slate-700 {
+  color: #f4f4f5 !important;
+}
+
+[data-theme="midnight-onyx"] .text-slate-500,
+[data-theme="midnight-onyx"] .text-slate-600 {
+  color: #a1a1aa !important;
+}
+
+[data-theme="midnight-onyx"] select,
+[data-theme="midnight-onyx"] input {
+  background-color: #18181b !important;
+  color: #f4f4f5 !important;
+  border-color: #3f3f46 !important;
+}
+
+/* Theme 3: Executive Navy & Slate */
+[data-theme="executive-navy"] body {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+[data-theme="executive-navy"] header {
+  background-color: #0b1329 !important;
+}
+
+[data-theme="executive-navy"] .bg-teal-600 {
+  background-color: #2563eb !important;
+}
+
+[data-theme="executive-navy"] .text-teal-600 {
+  color: #2563eb !important;
+}
+
+/* Custom Print Rules for Commercial Invoices & Statements */
+@media print {
+  @page {
+    size: auto;
+    margin: 8mm;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11px !important;
+  }
+
+  .no-print,
+  nav,
+  aside,
+  header,
+  footer,
+  .no-print-backdrop {
+    display: none !important;
+  }
+
+  .printable-area {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    display: block !important;
+    position: static !important;
+    overflow: visible !important;
+  }
+
+  #printable-voucher-invoice {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  #printable-voucher-invoice table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 10px !important;
+  }
+
+  #printable-voucher-invoice th, 
+  #printable-voucher-invoice td {
+    border: 1px solid #cbd5e1 !important;
+    padding: 6px 8px !important;
+  }
+
+  .print-only-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+  }
+}
